@@ -52,7 +52,7 @@ This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for
 ## Contact
 
 For updates and inquiries, connect with me on Bluesky:
-[<img alt="Bluesky @myles.redplanetgames.co" height="60px" src="addons/obj_origin_tool/images/Bluesky_badge.png" />](https://bsky.app/profile/did:plc:3ck6hpykx43wau7rha7fjsmj)
+[<img alt="Bluesky @myles.redplanetgames.co" height="30px" src="addons/obj_origin_tool/images/Bluesky_badge.png" />](https://bsky.app/profile/did:plc:3ck6hpykx43wau7rha7fjsmj)
 ---
 
 ## Acknowledgments
