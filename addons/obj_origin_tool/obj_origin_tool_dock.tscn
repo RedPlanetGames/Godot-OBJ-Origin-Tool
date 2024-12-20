@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://cupdwddvvtqdu"]
+
+[node name="OBJ Origin Tool" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TopSection" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 49.0
+grow_horizontal = 2
+
+[node name="Context" type="Label" parent="TopSection"]
+custom_minimum_size = Vector2(1, 1)
+layout_mode = 2
+size_flags_vertical = 0
+text = "
+Select a .obj file in the Godot FileSystem"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MiddleSection" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -46.5
+offset_bottom = 46.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MiddleSection"]
+custom_minimum_size = Vector2(1, 1)
+layout_mode = 2
+size_flags_vertical = 0
+text = "Move Origin/Pivot to..."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Center Mass" type="Button" parent="MiddleSection"]
+layout_mode = 2
+text = "Center Mass"
+
+[node name="Center Bottom" type="Button" parent="MiddleSection"]
+layout_mode = 2
+text = "Center Bottom"
+
+[node name="BottomSection" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Help" type="Button" parent="BottomSection"]
+layout_mode = 2
+text = "Help"
